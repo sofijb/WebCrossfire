@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+   <meta chareset="utf-8 />
+   <title>Homer's Online Music Shop </title>
+</head>
+
+<body>
+	<header>
+		<hgroup>
+			<h1>Homer's Music Store</h1>
+			<h2>Rock On!</h2>
+		
+		</hgroup>
+
+	</header>
+	
+	<section id="container">
+		<h1>Everything is On Sale for Halloween</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+		eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+		ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+		aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+		in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+		officia deserunt mollit anim id est laborum</p>
+		<h3>My guarantee</h3>
+		<p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund.
+		<strong>No questions asked!</strong></p>
+	</section>
+	
+	<footer>
+	
+	</footer>
+</body>
+
+</html>
