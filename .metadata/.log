@@ -107,3 +107,20 @@ Binding(CTRL+SHIFT+I,
 !MESSAGE Could not find view: org.eclipse.ui.internal.introview
 !SUBENTRY 1 unknown 0 0 2012-09-22 09:23:09.347
 !MESSAGE OK
+
+!ENTRY org.eclipse.ui 4 4 2012-09-29 09:52:54.157
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2012-09-29 09:52:54.241
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-09-29 10:08:10.498
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-09-29 10:08:10.507
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@9ed343,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@13b0106),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10e18ba)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@140022f,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@13b0106),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10e18ba)),sourcePriority=1064960)
